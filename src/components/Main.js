@@ -19,7 +19,7 @@ function Main (){
         <Route path="*" element={<Navigate to="/home"/>}> </Route>
         </Routes>
         </BrowserRouter>
-        
+        <br/>
         <Footer/>
         </div>
     )      

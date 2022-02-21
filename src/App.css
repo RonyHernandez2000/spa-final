@@ -36,6 +36,13 @@
     transform: rotate(360deg);
   }
 }
-.P{
-  text-align: right;
+.h2{
+  text-align: left;
+}
+:root {
+--mainDark: rgb(33,37,41);
+--mainGray: rgba (109,109,109);
+--mainLightGrey: rgba(172,172,172);
+--mainWhite: #fff;
+--mainBlue: #007bff;
 }
