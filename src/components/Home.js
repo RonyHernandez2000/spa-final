@@ -1,6 +1,4 @@
 import React from "react";
-import {Link} from 'react-router-dom';
-import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -8,36 +6,33 @@ import Row from 'react-bootstrap/Row';
 
 function Home (){
 return(
-    <div>
+    <div style={{display:'block', height:100, width:1800, padding:30}} >
         <h2>Most Popular Items</h2>
         <Row>
         <Col>
-        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+        <Card.Img  className="Card-Img" variant="top" src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" />
     <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    $109.95
     </Card.Text>
   </Card.Body>
      </Col>   
     <Col>
-    <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+    <Card.Img className="Card-Img" variant="top" src="https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg" />
     <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    $114
     </Card.Text>
   </Card.Body>
     </Col>
     <Col>
-    <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+    <Card.Img className="Card-Img" variant="top" src="https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg" />
     <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>Rain Jacket Women Windbreaker Striped Climbing Raincoats</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    $39.99
     </Card.Text>
   </Card.Body>
     </Col>

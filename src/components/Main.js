@@ -10,7 +10,6 @@ function Main (){
     return(
         <div>
         <Header/>
-        
         <BrowserRouter>
         <Routes>
         <Route path='/home' element={<Home/>}/>

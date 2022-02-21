@@ -46,3 +46,16 @@
 --mainWhite: #fff;
 --mainBlue: #007bff;
 }
+
+.Card-Img{
+  height: auto;
+  max-height: 500px;
+  width: auto;
+  max-width: 500px;
+}
+.div-product{
+  display:'block';
+  height:11000px; 
+  width:1800; 
+  padding:30
+}
